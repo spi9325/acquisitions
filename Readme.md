@@ -108,3 +108,11 @@ check .prettierrc root file
 
     "format": "prettier --write .",
     --- fix format acording to .prettierrc  = >> npm run format
+
+
+Logging/Monitor ====================================================================================
+
+ npm i winston
+ see config/logger.js
+
+

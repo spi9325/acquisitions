@@ -6,6 +6,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { router } from './routes/route.signup.js';
+import securityMiddleware from './middleware/security.middleware.js';
 
 const app = express();
 app.use(helmet());
@@ -19,7 +20,7 @@ app.use(
     stream: { write: message => logger.info(message.trimEnd()) },
   })
 );
-
+app.use(securityMiddleware);
 app.get('/', (req, res) => {
   logger.info('hello from Acqisitions');
   res.status(200).send('hello from acquisations');

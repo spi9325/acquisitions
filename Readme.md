@@ -77,7 +77,7 @@ Git ============================================================================
                                [Feture-Auth]  --O--O--O--O--O--O--O--O--O--O--O--O--O--O--O--O--O--O--O--O
 
                                   ----push this LOCAL code to github/remote repo
-                                  
+
                                   git push --set-upstream origin Feature-Auth 
                                                 OR
                                   git push -u origin Feature-Auth
@@ -85,3 +85,6 @@ Git ============================================================================
                                   ----if somone add code to remote branch then 
 
                                   git pull 
+
+
+ES_LINT =========================================================================================================                                  

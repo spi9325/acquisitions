@@ -23,7 +23,7 @@ app.use(
 app.use(securityMiddleware);
 app.get('/', (req, res) => {
   logger.info('hello from Acqisitions');
-  res.status(200).send('hello from acquisations');
+  res.status(200).send('hello from acquisations........66.33');
 });
 
 app.get('/health', (req, res) => {

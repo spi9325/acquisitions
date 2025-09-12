@@ -1,6 +1,6 @@
-import logger from '../config/logger';
+import logger from '../config/logger.js';
 
-export async function signupcontroller(req, res) {
+export async function signupController(req, res) {
   try {
     const { email } = req.body;
     console.log('hiii', email);

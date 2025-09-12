@@ -55,6 +55,12 @@ Git ============================================================================
             but you want again that buggy code there is env var or id present 
             git checkout main  => we get all buggy latest code our head point to latest commit 
                 total 2 file are now present 1 old code 2 buggy code
+
+                ----------------------------------------
+
+                    git revert <buggy-commit-hash>     =>> rollback from buggy code to working old
+                    git push origin main
+
             --------------------------------------------
     ----working with multi repo 
             haw to add multi repo ====>>      git remote add origin  https://spi9325url.github
@@ -88,3 +94,10 @@ Git ============================================================================
 
 
 ES_LINT =========================================================================================================                                  
+
+    npm i -D eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier
+    check eslint.config.js    file
+
+
+Prettier ========================================================================================================
+    check .prettierrc root file
